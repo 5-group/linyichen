@@ -1,0 +1,40 @@
+/* pages/game/game.wxss */
+.grid {
+  display: flex;
+}
+.grid_cell {
+  flex: 1;
+  background: #EAF0FB;
+  display: flex;
+}
+.card {
+  background: #666;
+  flex: 1;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.open {
+  background: #437dd4;
+}
+button {
+  margin: 0 15px;
+}
+page {
+  overflow: hidden; 
+  background: #EAF0FB; 
+}
+.bottom-click{
+  margin-top: 5%;
+  width:90%; 
+  height:100rpx; 
+  line-height:100rpx; 
+  margin-left:5%; 
+  margin-right:5%;
+  padding:0rpx;
+  background-color: #437dd4;
+  color: white;
+  font-size: 33rpx;
+  border-radius: 20rpx;
+}
